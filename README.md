@@ -6,19 +6,19 @@ Hacker Rank RDBMS Questions
 SQL HACKER RANK <br>
 </tr>
 <tr>
-•	Revising the Select Query <br>
+•	Revising the Select Query  QUERY:  SELECT * FROM CITY WHERE POPULATION >= 100000 and COUNTRYCODE LIKE '%USA'  <br> 
 </tr>
 <tr>
-•	Revising the Select Query II <br>
+•	Revising the Select Query II QUERY: SELECT DISTINCT NAME FROM CITY WHERE POPULATION > 120000 and COUNTRYCODE LIKE '%USA'  <br>
 </tr>
 <tr>
-•	Select All <br>
+•	Select All QUERY: SELECT * FROM CITY  <br> 
 </tr>
 <tr>
-•	Select By ID <br>
+•	Select By ID QUERY:SELECT * FROM CITY WHERE ID=1661   <br>
 </tr>
 <tr>
-• Japanese Cities' Attributes <br>
+• Japanese Cities' Attributes QUERY:  <br>
 </tr>
 <tr>
 • Japanese Cities' Names <br>
