@@ -3,27 +3,27 @@ Hacker Rank RDBMS Questions
 
 <table>
 <tr>
-SQL HACKER RANK
+SQL HACKER RANK <br>
 </tr>
 <tr>
-•	Revising the Select Query
+•	Revising the Select Query <br>
 </tr>
 <tr>
-•	Revising the Select Query II
+•	Revising the Select Query II <br>
 </tr>
 <tr>
-•	Select All
+•	Select All <br>
 </tr>
 <tr>
-•	Select By ID
+•	Select By ID <br>
 </tr>
 <tr>
-• Japanese Cities' Attributes
+• Japanese Cities' Attributes <br>
 </tr>
 <tr>
-• Japanese Cities' Names
+• Japanese Cities' Names <br>
 </tr>
 <tr>
-• Weather Observation Station 1
-</tr>
+• Weather Observation Station 1 <br>
+</tr> 
 
