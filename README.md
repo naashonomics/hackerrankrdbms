@@ -6,7 +6,10 @@ Hacker Rank RDBMS Questions
 SQL HACKER RANK <br>
 </tr>
 <tr>
-•	Revising the Select Query  <br> 
+•	Revising the Select Query : Query all columns for all American cities in CITY with populations larger than 100000. The CountryCode for America is USA. 
+Input Format
+The CITY table is described as follows:
+   <br> 
   QUERY:  SELECT * FROM CITY WHERE POPULATION >= 100000 and COUNTRYCODE LIKE '%USA'  
   <br> 
 </tr>
