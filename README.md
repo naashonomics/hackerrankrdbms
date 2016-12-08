@@ -6,10 +6,13 @@ Hacker Rank RDBMS Questions
 SQL HACKER RANK <br>
 </tr>
 <tr>
-•	Revising the Select Query  QUERY:  SELECT * FROM CITY WHERE POPULATION >= 100000 and COUNTRYCODE LIKE '%USA'  <br> 
+•	Revising the Select Query  <br> 
+<b> QUERY:  SELECT * FROM CITY WHERE POPULATION >= 100000 and COUNTRYCODE LIKE '%USA'  </b>
+  <br> 
 </tr>
 <tr>
-•	Revising the Select Query II QUERY: SELECT DISTINCT NAME FROM CITY WHERE POPULATION > 120000 and COUNTRYCODE LIKE '%USA'  <br>
+•	Revising the Select Query II <br> 
+<b> QUERY: SELECT DISTINCT NAME FROM CITY WHERE POPULATION > 120000 and COUNTRYCODE LIKE '%USA'  </b>  <br>
 </tr>
 <tr>
 •	Select All QUERY: SELECT * FROM CITY  <br> 
