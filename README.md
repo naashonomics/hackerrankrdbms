@@ -39,4 +39,19 @@
 <b> SELECT CITY,STATE FROM STATION  </b> <br>
 <br>
 </tr> 
+<tr>
+• Weather Observation Station 3: Query a list of CITY names from STATION with even ID numbers only. You may print the results in any order, but must exclude duplicates from your answer.  <br>
+<b> SELECT DISTINCT CITY FROM STATION  WHERE ID % 2 = 0  </b> <br>
+<br>
+</tr> 
+<tr>
+• Weather Observation Station 4: Let  be the number of CITY entries in STATION, and let  be the number of distinct CITY names in STATION; query the value of  from STATION. In other words, find the difference between the total number of CITY entries in the table and the number of distinct CITY entries in the table.   <br>
+<b> SELECT COUNT(CITY) - COUNT(DISTINCT CITY) FROM STATION  </b> <br>
+<br>
+</tr> 
+<tr>
+• Weather Observation Station 5: Query the two cities in STATION with the shortest and longest CITY names, as well as their respective lengths (i.e.: number of characters in the name). If there is more than one smallest or largest city, choose the one that comes first when ordered alphabetically.  <br>
+<b>   </b> <br>
+<br>
+</tr> 
 
