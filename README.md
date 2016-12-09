@@ -8,7 +8,7 @@ SQL HACKER RANK <br>
 <tr>
 •	Revising the Select Query : Query all columns for all American cities in CITY with populations larger than 100000. The CountryCode for America is USA. 
    <br> 
-   <b> QUERY:  SELECT * FROM CITY WHERE POPULATION >= 100000 and COUNTRYCODE LIKE '%USA' <b>  <br>
+   <b> QUERY:  SELECT * FROM CITY WHERE POPULATION >= 100000 and COUNTRYCODE LIKE '%USA' </b>  <br>
   <br> 
 </tr>
 <tr>
@@ -16,8 +16,8 @@ SQL HACKER RANK <br>
  <b> QUERY: SELECT DISTINCT NAME FROM CITY WHERE POPULATION > 120000 and COUNTRYCODE LIKE '%USA' </b>   <br>
 </tr>
 <tr>
-•	Select All  <br>
-  QUERY: SELECT * FROM CITY  <br> 
+•	Select All : Query all columns (attributes) for every row in the CITY table.  <br>
+<b> QUERY: SELECT * FROM CITY </b>  <br> 
 </tr>
 <tr>
 •	Select By ID  <br>
