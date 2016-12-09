@@ -54,4 +54,19 @@
 <b>  (SELECT CITY, LENGTH(CITY) AS l FROM STATION ORDER BY l DESC LIMIT 1) UNION (SELECT CITY, LENGTH(CITY) AS l FROM STATION ORDER BY l ASC LIMIT 1);  </b> <br>
 <br>
 </tr> 
-
+<tr>
+• Weather Observation Station 6: Query the list of CITY names starting with vowels (a, e, i, o, u) from STATION. Your result cannot contain duplicates.  <br>
+<b>  SELECT CITY FROM STATION WHERE CITY REGEXP '^a|^e|^i|^o|^u'  </b> <br>
+<br>
+</tr> 
+<tr>
+• Weather Observation Station 7: Query the list of CITY names starting with vowels (a, e, i, o, u) from STATION. Your result cannot contain duplicates.  <br>
+<b>  SELECT DISTINCT CITY 
+FROM   STATION 
+WHERE  UPPER(CITY) LIKE '%A' 
+   OR  UPPER(CITY) LIKE '%E' 
+   OR  UPPER(CITY) LIKE '%I' 
+   OR  UPPER(CITY) LIKE '%O' 
+   OR  UPPER(CITY) LIKE '%U';  </b> <br>
+<br>
+</tr> 
