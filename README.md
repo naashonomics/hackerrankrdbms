@@ -1,7 +1,9 @@
 # hackerrankrdbms
+
+<h1>  SQL HACKER RANK </h1>
 <table>
 <tr>
-<b>SQL HACKER RANK </b> <br> <br>
+<b> BASIC QUERY</b> <br> <br>
 </tr>
 <tr>
 •	Revising the Select Query : Query all columns for all American cities in CITY with populations larger than 100000. The CountryCode for America is USA. 
