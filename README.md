@@ -98,3 +98,9 @@ FROM   station
 WHERE  city RLIKE '^[^aeiouAEIOU].*[^aeiouAEIOU]$'  </b> <br>
 <br>
 </tr> 
+<tr>
+•  Higher Than 75 Marks : Query the Name of any student in STUDENTS who scored higher than  Marks. Order your output by the last three characters of each name. If two or more students both have names ending in the same last three characters (i.e.: Bobby, Robby, etc.), secondary sort them by ascending ID.  <br>
+<b> SELECT DISTINCT city
+ SELECT DISTINCT NAME FROM  STUDENTS  WHERE MARKS > 75 ORDER BY RIGHT(NAME,3),ID; </b> <br>
+<br>
+</tr> 
