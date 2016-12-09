@@ -72,3 +72,10 @@ WHERE  UPPER(CITY) LIKE '%A'
    OR  UPPER(CITY) LIKE '%U';  </b> <br>
 <br>
 </tr> 
+<tr>
+• Weather Observation Station 8: Query the list of CITY names from STATION which have vowels (i.e., a, e, i, o, and u) as both their first and last characters. Your result cannot contain duplicates.  <br>
+<b> SELECT DISTINCT city
+FROM   station
+WHERE  city RLIKE '^[aeiouAEIOU].*[aeiouAEIOU]$'  </b> <br>
+<br>
+</tr> 
