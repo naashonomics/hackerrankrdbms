@@ -1,6 +1,4 @@
 # hackerrankrdbms
-Hacker Rank RDBMS Questions 
-
 <table>
 <tr>
 SQL HACKER RANK <br>
@@ -27,12 +25,20 @@ SQL HACKER RANK <br>
 <br>
 </tr>
 <tr>
-• Japanese Cities' Attributes QUERY:  <br>
+• Japanese Cities' Attributes QUERY: Query all attributes of every Japanese city in the CITY table. The COUNTRYCODE for Japan is JPN.  <br>
+<b> SELECT * FROM CITY WHERE COUNTRYCODE LIKE'%JPN'  </b> <br>
+<br>
 </tr>
 <tr>
-• Japanese Cities' Names <br>
+• Japanese Cities' Names : Query the names of all the Japanese cities in the CITY table. The COUNTRYCODE for Japan is JPN. <br>
+<br>
+<b> SELECT NAME FROM CITY WHERE COUNTRYCODE='JPN'  </b> <br>
+<br>
 </tr>
 <tr>
-• Weather Observation Station 1 <br>
+• Weather Observation Station 1: Query a list of CITY and STATE from the STATION table <br>
+<br>
+<b> SELECT CITY,STATE FROM STATION  </b> <br>
+<br>
 </tr> 
 
