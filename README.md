@@ -31,13 +31,11 @@ SQL HACKER RANK <br>
 </tr>
 <tr>
 • Japanese Cities' Names : Query the names of all the Japanese cities in the CITY table. The COUNTRYCODE for Japan is JPN. <br>
-<br>
 <b> SELECT NAME FROM CITY WHERE COUNTRYCODE='JPN'  </b> <br>
 <br>
 </tr>
 <tr>
 • Weather Observation Station 1: Query a list of CITY and STATE from the STATION table <br>
-<br>
 <b> SELECT CITY,STATE FROM STATION  </b> <br>
 <br>
 </tr> 
