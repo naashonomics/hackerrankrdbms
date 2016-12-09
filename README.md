@@ -123,3 +123,9 @@ Note: CITY.CountryCode and COUNTRY.Code are matching key columns.   <br>
 <b> SELECT SUM(CITY.POPULATION) FROM CITY,COUNTRY WHERE  COUNTRYCODE = CODE  AND CONTINENT = "Asia" </b> <br>
 <br>
 </tr> 
+<table>
+<tr>
+•  Given the CITY and COUNTRY tables, query the names of all cities where the CONTINENT is 'Africa'. Note: CITY.CountryCode and COUNTRY.Code are matching key columns.  <br>
+<b> SELECT DISTINCT  CITY.NAME FROM  CITY,COUNTRY  WHERE CITY.CountryCode = COUNTRY.Code  AND COUNTRY.CONTINENT="Africa" </b> <br>
+<br>
+</tr> 
