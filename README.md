@@ -111,6 +111,15 @@ WHERE  city RLIKE '^[^aeiouAEIOU].*[^aeiouAEIOU]$'  </b> <br>
 </tr> 
 <tr>
 •  Write a query that prints a list of employee names (i.e.: the name attribute) for employees in Employee having a salary greater than  per month who have been employees for less than  months. Sort your result by ascending employee_id.   <br>
-<b> SELECT NAME FROM EMPLOYEE WHERE SALARY > 2000 AND MONTHS < 10 </b> <br>
+<b> SELECT NAME FROM EMPLOYEE WHERE SALARY > 2000 AND MONTHS 10 </b> <br>
+<br>
+</tr> 
+</table>
+<h1>  Basic Join Challenges </h1>
+<table>
+<tr>
+•  Given the CITY and COUNTRY tables, query the sum of the populations of all cities where the CONTINENT is 'Asia'.
+Note: CITY.CountryCode and COUNTRY.Code are matching key columns.   <br>
+<b> SELECT SUM(CITY.POPULATION) FROM CITY,COUNTRY WHERE  COUNTRYCODE = CODE  AND CONTINENT = "Asia" </b> <br>
 <br>
 </tr> 
