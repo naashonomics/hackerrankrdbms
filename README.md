@@ -104,3 +104,8 @@ WHERE  city RLIKE '^[^aeiouAEIOU].*[^aeiouAEIOU]$'  </b> <br>
  SELECT DISTINCT NAME FROM  STUDENTS  WHERE MARKS > 75 ORDER BY RIGHT(NAME,3),ID; </b> <br>
 <br>
 </tr> 
+<tr>
+•  Employee Names :Write a query that prints a list of employee names (i.e.: the name attribute) from the Employee table in alphabetical order.   <br>
+<b> SELECT NAME FROM Employee ORDER BY NAME </b> <br>
+<br>
+</tr> 
