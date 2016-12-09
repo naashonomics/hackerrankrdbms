@@ -79,3 +79,10 @@ FROM   station
 WHERE  city RLIKE '^[aeiouAEIOU].*[aeiouAEIOU]$'  </b> <br>
 <br>
 </tr> 
+<tr>
+• Weather Observation Station 9: Query the list of CITY names from STATION that do not start with vowels. Your result cannot contain duplicates. <br>
+<b> SELECT DISTINCT city
+FROM   station
+WHERE  city RLIKE '^[^aeiouAEIOU].*'  </b> <br>
+<br>
+</tr> 
