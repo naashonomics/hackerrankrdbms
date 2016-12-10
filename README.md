@@ -129,3 +129,11 @@ Note: CITY.CountryCode and COUNTRY.Code are matching key columns.   <br>
 <b> SELECT DISTINCT  CITY.NAME FROM  CITY,COUNTRY  WHERE CITY.CountryCode = COUNTRY.Code  AND COUNTRY.CONTINENT="Africa" </b> <br>
 <br>
 </tr> 
+<tr>
+•  Given the CITY and COUNTRY tables, query the names of all the continents (COUNTRY.Continent) and their respective average city populations (CITY.Population) rounded down to the nearest integer.   <br>
+<b> SELECT Country.Continent, FLOOR(AVG(City.Population))
+FROM Country, City 
+WHERE Country.Code = City.CountryCode 
+GROUP BY Country.Continent ; </b> <br>
+<br>
+</tr> 
